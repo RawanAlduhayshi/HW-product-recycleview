@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HW_product_recycleview</string>
+    <string name="buy">BUY</string>
+    <string name="product_info">product info</string>
+    <string name="procut_image">procut image</string>
+    <string name="Iphone_12_64GB">Iphone_12_64GB</string>
+    <string name="Samsung_Galaxy_S21_Ultra">Samsung_Galaxy_S21_Ultra</string>
+    <string name="Xiaomi_11T_Pro">Xiaomi_11T_Pro</string>
+    <string name="Huawei_Y6p">Huawei_Y6p</string>
+    <string name="Samsung_Galaxy_Z_Flip3">Samsung_Galaxy_Z_Flip3</string>
+    <string name="Iphone_13">Iphone_13</string>
+    <string name="Samsung_Galaxy_S20_FE">Samsung_Galaxy_S20_FE</string>
+    <string name="Samsung_Galaxy_S21">Samsung_Galaxy_S21</string>
+    <string name="OPPO_Reno_5_Pro">OPPO_Reno_5_Pro</string>
+    <string name="Iphone_11">Iphone_11</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

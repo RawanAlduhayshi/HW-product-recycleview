@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/phoneListFragment">
+
+    <fragment
+        android:id="@+id/phoneListFragment"
+        android:name="com.example.hw_product_recycleview.PhoneListFragment"
+        android:label="fragment_phone_list"
+        tools:layout="@layout/fragment_phone_list" >
+        <action
+            android:id="@+id/action_phoneListFragment_to_phoneNameFragment"
+            app:destination="@id/phoneNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneNameFragment"
+        android:name="com.example.hw_product_recycleview.PhoneListFragment"
+        android:label="fragment_phone_name"
+        tools:layout="@layout/fragment_phone_list">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="string" />
+    </fragment>
+</navigation>
