@@ -16,9 +16,9 @@
     </fragment>
     <fragment
         android:id="@+id/phoneNameFragment"
-        android:name="com.example.hw_product_recycleview.PhoneListFragment"
+        android:name="com.example.hw_product_recycleview.PhoneNameFragment"
         android:label="fragment_phone_name"
-        tools:layout="@layout/fragment_phone_list">
+        tools:layout="@layout/fragment_phone_name">
         <argument
             android:name="name"
             app:argType="string" />
